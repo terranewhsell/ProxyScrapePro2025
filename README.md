@@ -1,4 +1,4 @@
-# 🌐 ProxyScraper Pro 2025
+# 🌐 Proxy Scraper Pro 2025
 
 A powerful and modern proxy scraping tool with real-time validation capabilities.
 
