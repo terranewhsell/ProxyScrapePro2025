@@ -1,4 +1,4 @@
-# 🌐 Proxy Scraper Pro 2025
+# 🌐 ProxyScraper Pro
 
 ![Version](https://img.shields.io/badge/version-1.3.1-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
@@ -10,14 +10,62 @@ ProxyScraper Pro is a powerful free tool for obtaining and validating proxies fr
 
 ## ✨ Main Features
 
-- 🔍 Proxy scraping from multiple sources (+100 sources and 45,000 proxies)
-- ✅ Real-time validation
-- 🌍 Support for HTTP, HTTPS, SOCKS4, and SOCKS5
-- 📊 Export in various formats
-- ⭐ Favorites system
-- 🌈 Light/Dark mode
-- 🌐 Multi-language support
-- 💾 Save proxies in txt/excel format
+- 🔍 **Advanced Proxy Scraping**:
+  - Multiple reliable sources
+  - Customizable scraping limits
+  - Automatic duplicate removal
+  - Support for HTTP, HTTPS, SOCKS4, and SOCKS5
+
+- ✅ **Smart Validation System**:
+  - Real-time proxy validation
+  - Configurable timeout settings
+  - Custom test URL support
+  - Detailed connection statistics
+  - Multi-threaded validation for speed
+
+- 📊 **Comprehensive Management**:
+  - Advanced sorting system by:
+    - Response time
+    - Protocol type
+    - Country/Location
+    - Anonymity level
+  - Filtering options
+  - Duplicate removal
+  - Bulk actions support
+
+- 💾 **Export Capabilities**:
+  - Multiple format support:
+    - TXT (plain text)
+    - Excel spreadsheet
+    - Custom format templates
+  - Selective export options
+  - Format customization
+
+- ⭐ **Enhanced Organization**:
+  - Favorites system for best proxies
+  - Custom tags and labels
+  - Search and filter functionality
+  - Quick access to frequently used proxies
+
+- 🎨 **User Interface**:
+  - Modern and intuitive design
+  - Light/Dark mode support
+  - Customizable layout
+  - Responsive design
+  - User-friendly controls
+
+- 🌐 **Language Support**:
+  - Multiple language interface
+  - Easy language switching
+  - Community-driven translations
+  - Real-time language updates
+
+- 🛠️ **Additional Tools**:
+  - Proxy checker
+  - Protocol converter
+  - IP location lookup
+  - Connection speed tester
+  - Proxy anonymity tester
 
 ## 📥 Installation
 
@@ -28,34 +76,53 @@ ProxyScraper Pro is a powerful free tool for obtaining and validating proxies fr
 ## 📖 User Guide
 
 1. **Get Proxies**:
-   - Select desired sources
-   - Adjust limit and proxy type
-   - Click "Get Proxies"
+   - Select desired sources from the available list
+   - Adjust scraping limit and proxy types
+   - Configure additional filters (optional)
+   - Click "Get Proxies" to start collection
 
 2. **Validate Proxies**:
    - Select proxies to validate
-   - Configure test URL (optional)
-   - Click "Validate"
+   - Configure validation settings:
+     - Timeout duration
+     - Test URL (optional)
+     - Number of threads
+     - Retry attempts
+   - Click "Validate" to begin testing
 
-3. **Export Results**:
-   - Select valid proxies
-   - Choose export format
-   - Save file
+3. **Manage Results**:
+   - Sort proxies by various criteria
+   - Filter by specific requirements
+   - Add important proxies to favorites
+   - Remove duplicates or invalid entries
+   - Apply bulk actions as needed
+
+4. **Export Results**:
+   - Select proxies to export
+   - Choose export format:
+     - TXT (plain text)
+     - Excel spreadsheet
+     - Custom format
+   - Configure export settings
+   - Save to desired location
 
 ## 🔄 Updates
 
 - Manually check for new versions from the program
 - Download the latest version from GitHub Releases
+- View changelog for recent improvements
 
 ## 📞 Support & Contact
 
 - Technical support: @ceferinsoftware (Telegram)
 - Advertising and inquiries: @ceferinsoftware (Telegram)
+- Bug reports and feature requests welcome
 
 ## 💝 Donations
 
 If you find this software useful, consider making a donation to support its development:
 - Contact @ceferinsoftware on Telegram
+- Your support helps maintain and improve the software
 
 ## ⚠️ Legal Notice
 
