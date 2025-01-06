@@ -1,126 +1,105 @@
-# Proxy Scraper Pro 2025 🌐
+# 🌐 ProxyScraper Pro 2025
 
-A professional and modern tool for proxy scraping, validation, and management.
+A powerful and modern proxy scraping tool with real-time validation capabilities.
 
-## 🌟 Main Features
+## Features
 
-### Proxy Scraping
-- **Multiple Sources**: Over 20 reliable sources including:
-  - Github-clarketm
-  - Github-TheSpeedX
-  - Github-ShiftyTR
-  - Github-hookzof
-  - Github-monosans
-  - Github-mertguvencli
-  - ProxyNova
-  - SSLProxies
-  - FreeProxyList
-  - And many more...
+- **Modern GUI**: Clean and intuitive interface for easy operation
+- **Multiple Sources**: Scrapes proxies from 15+ different sources
+- **Real-time Validation**: Tests proxies as they are scraped
+- **Export Options**: Save proxies in various formats (TXT, CSV, JSON)
+- **Protocol Support**: HTTP, HTTPS, SOCKS4, SOCKS5
+- **Customizable Settings**: 
+  - Timeout configuration
+  - Custom validation URL
+  - Protocol filtering
+  - Port filtering
+- **Auto-Updates**: Automatically checks for new versions
+- **Multi-language Support**: Interface available in multiple languages
+- **Proxy Details**: Shows country, response time, and anonymity level
+- **Duplicate Removal**: Automatically removes duplicate proxies
+- **Sorting Options**: Sort by speed, country, or protocol
 
-- **Protocol Filtering**:
-  - HTTP
-  - HTTPS
-  - SOCKS4
-  - SOCKS5
+## Installation
 
-### Proxy Validation
-- Real-time validation
-- Response time measurement
-- Automatic detection of:
-  - Country
-  - Protocol
-  - Anonymity level
-- Real-time progress counter
-- Customizable test URL
+1. Download the latest version from the [Releases](https://github.com/terranewhsell/ProxyScrapePro2025/releases) page
+2. Run the executable - no installation required
+3. (Optional) Create a shortcut on your desktop
 
-### Favorites Management
-- Mark proxies as favorites (★)
-- Persistent favorites list
-- Export favorites
-- Individual favorites management
+## Usage Guide
 
-### Export and Save
-- **Multiple Formats**:
-  - IP:Port
-  - http://IP:Port
-  - https://IP:Port
-  - socks4://IP:Port
-  - socks5://IP:Port
-- Excel export
-- Custom file names
-- Overwrite verification
+### Basic Usage
+1. Select your desired proxy sources from the list
+2. Set the limit for how many proxies to scrape (or leave default)
+3. Click "Get Proxies" to start scraping
+4. Wait for the validation process to complete
+5. Export your proxies using the "Save Proxies" button
 
-### User Interface
-- Modern and professional design
-- Light/Dark mode
-- Multi-language support:
-  - English (default)
-  - Spanish
-  - French
-  - German
-  - Chinese
-  - Russian
-  - Dutch
-- Sortable table columns
-- Real-time statistics
+### Advanced Features
 
-## 📋 User Manual
+#### Proxy Validation
+- Set custom timeout values
+- Use your own URL for testing
+- Configure specific ports to check
+- Filter by protocol type
 
-### 1. Getting Proxies
-1. Select desired sources in the "Sources" section
-2. Set a proxy limit (optional)
-3. Select desired protocol (or "all")
-4. Click "⚡ Get Proxies"
+#### Export Options
+- TXT format (IP:Port)
+- CSV with additional details
+- JSON format with full proxy information
+- Custom format support
 
-### 2. Validation
-1. Enter a test URL (optional)
-2. Select proxies to validate
-3. Click "✓ Validate"
-4. Watch real-time progress
+#### Settings Configuration
+- Language selection
+- Theme customization
+- Proxy timeout settings
+- Update check frequency
 
-### 3. Favorites Management
-- **Add to Favorites**:
-  1. Select a proxy
-  2. Click "★ Add" or use context menu (right-click)
-  
-- **View Favorites**:
-  1. Click "View Favorites"
-  2. Manage favorites list
-  3. Export or delete favorites
+## Technical Details
 
-### 4. Export
-- **Save Proxies**:
-  1. Click "Save Proxies"
-  2. Select desired format
-  3. Enter custom name
-  4. Confirm operation
+- Built with Python 3.12
+- Uses asyncio for efficient proxy checking
+- Implements multi-threading for faster scraping
+- Regular updates with new proxy sources
+- Lightweight executable (~15MB)
 
-- **Export to Excel**:
-  1. Click "Export to Excel"
-  2. File will be saved in "resources" folder
+## Support & Contact
 
-### 5. Additional Features
-- **Sort**: Click column headers
-- **Copy Proxy**: Double click or context menu
-- **Change Language**: Language menu in top bar
-- **Change Theme**: Dark/Light mode button
-- **Filter by Country**: Tools menu > Filter by Country
-- **Remove Duplicates**: Tools menu > Remove Duplicates
+For technical support or business inquiries:
+- Telegram: [@ceferinsoftware](https://t.me/ceferinsoftware)
+- Support available in English and Spanish
 
-## 📝 Additional Notes
-- Proxies are validated against specified URL
-- Favorites are saved automatically
-- "resources" folder is created automatically
-- Exported files include timestamp
+## Recommended Services
 
-## 🔒 Security
-- No personal information is sent
-- No registration required
-- Open source and verifiable
-- No external connections except for validation
+### Premium Proxy Providers
+1. 🔒 **Webshare**
+   - 10 Free Premium Private Proxies
+   - Best price-quality ratio
+   - [Get Started](https://www.webshare.io/?referral_code=tyxqsy7b8w7q)
 
-## 🤝 Contributions
-Contributions are welcome. Please open an issue first to discuss proposed changes.
+2. 🚀 **IPRoyal**
+   - Premium Residential Proxies
+   - Mobile & Datacenter options
+   - [Learn More](https://iproyal.com/?r=749162)
 
-## 📄 License
-This project is under the MIT License. See the LICENSE file for details. 
+## Updates
+
+The program automatically checks for updates on startup. When a new version is available:
+1. You'll receive a notification
+2. Click the download button in the notification
+3. Close the current version
+4. Run the new version
+
+## Donations
+
+Support the development:
+- Contact [@ceferinsoftware](https://t.me/ceferinsoftware) on Telegram for donation options
+- Your support helps maintain and improve the software
+
+## License
+
+All rights reserved. This software is provided "as is" without warranty of any kind.
+
+## Disclaimer
+
+This tool is for educational and research purposes only. Users are responsible for complying with applicable laws and regulations regarding proxy usage in their jurisdiction. 
