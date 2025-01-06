@@ -130,14 +130,13 @@ This software is free to use but remains the intellectual property of its author
 
 ## Disclaimer & Educational Purpose
 
-This software is provided for **educational purposes only**. The primary goal of this tool is to learn and understand:
+The primary goal of this tool is to learn and understand:
 - Network protocols and proxy mechanisms
 - Web scraping techniques
 - Data validation and verification processes
 - Modern GUI development with Python
 
 ### Important Notice
-- This program is intended for educational and research purposes only
 - Users are responsible for complying with all applicable laws and regulations
 - The author does not endorse or encourage any misuse of this software
 - The author is not responsible for any damages or legal issues arising from the use of this tool
