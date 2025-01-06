@@ -1,105 +1,240 @@
-# 🌐 Proxy Scraper Pro 2025
+# 🌐 ProxyScraper Pro 2025
 
-A powerful and modern proxy scraping tool with real-time validation capabilities.
+![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)
+![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
+![License](https://img.shields.io/badge/license-Proprietary-red.svg)
 
-## Features
+<div align="center">
+  <img src="screenshots/main.png" alt="ProxyScraper Pro 2025" width="600"/>
+  <br/>
+  <i>The Most Advanced Proxy Scraping Tool</i>
+</div>
 
-- **Modern GUI**: Clean and intuitive interface for easy operation
-- **Multiple Sources**: Scrapes proxies from 80+ different sources
-- **Real-time Validation**: Tests proxies as they are scraped
-- **Export Options**: Save proxies in various formats (TXT, CSV, JSON)
+## 🚀 Overview
+
+ProxyScraper Pro 2025 is a cutting-edge proxy scraping and validation tool designed for professionals. With its modern interface and powerful features, it stands out as the most efficient solution for gathering and validating proxies from multiple sources.
+
+## ✨ Key Features
+
+### 📡 Advanced Scraping
+- **15+ Premium Sources**: Access to a curated list of reliable proxy sources
+- **Smart Scraping**: Intelligent algorithms to avoid duplicates and invalid proxies
+- **Custom Limits**: Set your desired number of proxies to scrape
+- **Source Selection**: Enable/disable specific sources as needed
+
+### ✅ Real-time Validation
+- **Multi-threaded Checking**: Ultra-fast proxy validation
+- **Custom Test URL**: Use your own URL for validation
+- **Timeout Configuration**: Adjust timeout settings for your needs
+- **Protocol Verification**: Ensures proxies work with specified protocols
+
+### 🔍 Proxy Information
+- **Detailed Stats**: Response time, uptime, and last checked time
+- **Geolocation Data**: Country and city information
+- **Anonymity Levels**: Transparent, Anonymous, or Elite
 - **Protocol Support**: HTTP, HTTPS, SOCKS4, SOCKS5
-- **Customizable Settings**: 
-  - Timeout configuration
-  - Custom validation URL
-  - Protocol filtering
-  - Port filtering
-- **Auto-Updates**: Automatically checks for new versions
-- **Multi-language Support**: Interface available in multiple languages
-- **Proxy Details**: Shows country, response time, and anonymity level
-- **Duplicate Removal**: Automatically removes duplicate proxies
-- **Sorting Options**: Sort by speed, country, or protocol
 
-## Installation
+### 💾 Export Options
+- **Multiple Formats**:
+  ```
+  # TXT Format
+  127.0.0.1:8080
+  
+  # CSV Format
+  IP,Port,Protocol,Country,Response Time
+  127.0.0.1,8080,HTTP,US,100ms
+  
+  # JSON Format
+  {
+    "ip": "127.0.0.1",
+    "port": 8080,
+    "protocol": "HTTP",
+    "country": "US",
+    "response_time": 100
+  }
+  ```
 
-1. Download the latest version from the [Releases](https://github.com/terranewhsell/ProxyScrapePro2025/releases) page
-2. Run the executable - no installation required
-3. (Optional) Create a shortcut on your desktop
+### 🎨 User Interface
+- **Modern Design**: Clean and intuitive layout
+- **Dark/Light Themes**: Choose your preferred visual style
+- **Real-time Updates**: Live progress and status indicators
+- **Sortable Results**: Order by speed, country, or protocol
 
-## Usage Guide
+## 🔧 Getting Started
 
-### Basic Usage
-1. Select your desired proxy sources from the list
-2. Set the limit for how many proxies to scrape (or leave default)
-3. Click "Get Proxies" to start scraping
-4. Wait for the validation process to complete
-5. Export your proxies using the "Save Proxies" button
+### System Requirements
+- Windows 7/8/10/11
+- 4GB RAM (recommended)
+- Internet connection
+- No additional software required
 
-### Advanced Features
+### Installation
+1. Download `ProxyScraper.exe` from [Latest Release](https://github.com/terranewhsell/ProxyScrapePro2025/releases)
+2. Run the executable
+3. No installation needed - 100% portable
 
-#### Proxy Validation
-- Set custom timeout values
-- Use your own URL for testing
-- Configure specific ports to check
-- Filter by protocol type
+### Quick Start Guide
+1. **Launch the Application**
+   - Double-click `ProxyScraper.exe`
+   - Accept any Windows security prompts
 
-#### Export Options
-- TXT format (IP:Port)
-- CSV with additional details
-- JSON format with full proxy information
-- Custom format support
+2. **Configure Sources**
+   - Select desired proxy sources
+   - Use "Select All" or "Deselect All" for quick configuration
+   - Recommended: Start with all sources selected
 
-#### Settings Configuration
-- Language selection
-- Theme customization
-- Proxy timeout settings
-- Update check frequency
+3. **Set Parameters**
+   - Protocol: Choose HTTP, HTTPS, SOCKS4, or SOCKS5
+   - Timeout: Default is 5000ms (adjustable)
+   - Limit: Set maximum proxies to scrape (0 = unlimited)
 
-## Technical Details
+4. **Start Scraping**
+   - Click "Get Proxies"
+   - Watch real-time progress
+   - View results in the main grid
 
-- Built with Python 3.12
-- Uses asyncio for efficient proxy checking
-- Implements multi-threading for faster scraping
-- Regular updates with new proxy sources
-- Lightweight executable (~15MB)
+5. **Validate Proxies**
+   - Select proxies to validate
+   - Click "Validate"
+   - Monitor success rates
 
-## Support & Contact
+6. **Export Results**
+   - Choose export format
+   - Select destination
+   - Save your proxies
 
-For technical support or business inquiries:
+## 🛠️ Advanced Usage
+
+### Custom Validation
+```
+Test URL: http://example.com
+Timeout: 5000ms
+Retries: 3
+Threads: 50
+```
+
+### Filtering Options
+- **Protocol Filter**: `HTTP, HTTPS, SOCKS4, SOCKS5`
+- **Speed Filter**: `Fast (<300ms), Medium (<1000ms), Slow (>1000ms)`
+- **Anonymity**: `Transparent, Anonymous, Elite`
+- **Country**: `Select specific countries or regions`
+
+### Keyboard Shortcuts
+- `Ctrl + G`: Start Scraping
+- `Ctrl + V`: Start Validation
+- `Ctrl + S`: Save Proxies
+- `Ctrl + R`: Reset All
+- `F5`: Refresh Sources
+
+## 🔄 Auto-Update System
+
+The program includes a sophisticated update system:
+- Automatic version checking
+- One-click updates
+- Changelog display
+- Seamless transition to new versions
+
+## 📊 Premium Sources
+
+### Included Sources
+1. ProxyNova
+2. SSLProxies
+3. FreeProxyList
+4. ProxyDB
+5. Proxyscrape
+6. SpysOne
+7. OpenProxySpace
+8. HideMyName
+9. ProxyList+
+10. FateProxy
+11. And more...
+
+## 💎 Premium Features
+
+### Speed Optimization
+- Multi-threading support
+- Async operations
+- Smart caching
+- Optimized validation
+
+### Export Customization
+- Custom formats
+- Filtering before export
+- Batch export
+- Auto-save options
+
+## 📞 Support & Contact
+
+### Technical Support
 - Telegram: [@ceferinsoftware](https://t.me/ceferinsoftware)
-- Support available in English and Spanish
+- Response Time: Usually within 24 hours
+- Languages: English & Spanish
 
-## Recommended Services
+### Business Inquiries
+- Custom development requests
+- Bulk license purchases
+- Partnership opportunities
 
-### Premium Proxy Providers
-1. 🔒 **Webshare**
-   - 10 Free Premium Private Proxies
-   - Best price-quality ratio
-   - [Get Started](https://www.webshare.io/?referral_code=tyxqsy7b8w7q)
+## 🤝 Recommended Services
 
-2. 🚀 **IPRoyal**
-   - Premium Residential Proxies
-   - Mobile & Datacenter options
-   - [Learn More](https://iproyal.com/?r=749162)
+### Webshare.io [Recommended]
+- 10 Free Premium Private Proxies
+- Datacenter & Residential
+- [Special Offer](https://www.webshare.io/?referral_code=tyxqsy7b8w7q)
 
-## Updates
+### IPRoyal
+- Premium Proxy Service
+- Global Coverage
+- [View Plans](https://iproyal.com/?r=749162)
 
-The program automatically checks for updates on startup. When a new version is available:
-1. You'll receive a notification
-2. Click the download button in the notification
-3. Close the current version
-4. Run the new version
+## 📜 Legal & Licensing
 
-## Donations
+### Terms of Use
+- Single user license
+- Non-transferable
+- No reverse engineering
+- Regular updates included
 
-Support the development:
-- Contact [@ceferinsoftware](https://t.me/ceferinsoftware) on Telegram for donation options
-- Your support helps maintain and improve the software
+### Disclaimer
+This software is for legitimate purposes only. Users are responsible for:
+- Compliance with local laws
+- Ethical usage of proxies
+- Respecting target servers' policies
 
-## License
+## 🌟 Version History
 
-All rights reserved. This software is provided "as is" without warranty of any kind.
+### v1.0.0 (Current)
+- Initial release
+- All core features implemented
+- Modern UI design
+- Multi-language support
 
-## Disclaimer
+### Coming Soon
+- Browser extension integration
+- API access
+- Custom source addition
+- Advanced analytics
 
-This tool is for educational and research purposes only. Users are responsible for complying with applicable laws and regulations regarding proxy usage in their jurisdiction. 
+## 💝 Support the Project
+
+### Why Donate?
+- Fund new features
+- Maintain proxy sources
+- Improve validation speeds
+- Enable continuous updates
+
+### How to Donate
+Contact [@ceferinsoftware](https://t.me/ceferinsoftware) for:
+- Cryptocurrency payments
+- PayPal donations
+- Custom support packages
+
+---
+
+<div align="center">
+  <b>ProxyScraper Pro 2025</b><br>
+  The Ultimate Proxy Management Solution<br>
+  <a href="https://t.me/ceferinsoftware">Contact Us</a> •
+  <a href="https://github.com/terranewhsell/ProxyScrapePro2025/releases">Download</a> •
+  <a href="https://t.me/ceferinsoftware">Support</a>
+</div> 
