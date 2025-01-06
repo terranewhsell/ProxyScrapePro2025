@@ -1,4 +1,4 @@
-# 🌐 ProxyScraper Pro
+# 🌐 Proxy Scraper Pro 2025
 
 ![Version](https://img.shields.io/badge/version-1.3.1-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
@@ -11,7 +11,7 @@ ProxyScraper Pro is a powerful free tool for obtaining and validating proxies fr
 ## ✨ Main Features
 
 - 🔍 **Advanced Proxy Scraping**:
-  - Multiple reliable sources
+  - Multiple reliable sources (+100 sources and 40,000 proxies)
   - Customizable scraping limits
   - Automatic duplicate removal
   - Support for HTTP, HTTPS, SOCKS4, and SOCKS5
