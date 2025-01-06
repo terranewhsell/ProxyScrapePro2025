@@ -5,7 +5,7 @@ A powerful and modern proxy scraping tool with real-time validation capabilities
 ## Features
 
 - **Modern GUI**: Clean and intuitive interface for easy operation
-- **Multiple Sources**: Scrapes proxies from 15+ different sources
+- **Multiple Sources**: Scrapes proxies from 80+ different sources
 - **Real-time Validation**: Tests proxies as they are scraped
 - **Export Options**: Save proxies in various formats (TXT, CSV, JSON)
 - **Protocol Support**: HTTP, HTTPS, SOCKS4, SOCKS5
