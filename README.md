@@ -1,4 +1,4 @@
-# 🌐 ProxyScraper Pro
+# 🌐 Proxy Scraper Pro 2025
 
 ![Version](https://img.shields.io/badge/version-1.3.1-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)
@@ -10,7 +10,7 @@ ProxyScraper Pro is a powerful free tool for obtaining and validating proxies fr
 
 ## ✨ Main Features
 
-- 🔍 Proxy scraping from multiple sources
+- 🔍 Proxy scraping from multiple sources (+100 sources and 45,000 proxies)
 - ✅ Real-time validation
 - 🌍 Support for HTTP, HTTPS, SOCKS4, and SOCKS5
 - 📊 Export in various formats
@@ -60,3 +60,19 @@ If you find this software useful, consider making a donation to support its deve
 ## ⚠️ Legal Notice
 
 This software is free to use but remains the intellectual property of its author. All rights reserved. While the software is provided free of charge, redistribution, modification, or commercial use without explicit permission is prohibited. 
+
+## Disclaimer & Educational Purpose
+
+This software is provided for **educational purposes only**. The primary goal of this tool is to learn and understand:
+- Network protocols and proxy mechanisms
+- Web scraping techniques
+- Data validation and verification processes
+- Modern GUI development with Python
+
+### Important Notice
+- This program is intended for educational and research purposes only
+- Users are responsible for complying with all applicable laws and regulations
+- The author does not endorse or encourage any misuse of this software
+- The author is not responsible for any damages or legal issues arising from the use of this tool
+
+By using this software, you acknowledge that you understand these terms and agree to use it responsibly and legally. 
